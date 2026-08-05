@@ -500,6 +500,9 @@ a {
 /* Мобильная версия */
 
 @media (max-width: 700px) {
+  .hero.home {
+  background-position: 35% center;
+}
   .hero.gallery {
   background-attachment: scroll;
   background-position: center top;
