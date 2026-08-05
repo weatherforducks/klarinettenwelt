@@ -501,7 +501,7 @@ a {
 
 @media (max-width: 700px) {
   .hero.home {
-  background-position: 25% center;
+  background-position: 30% center;
 }
   .hero.gallery {
   background-attachment: scroll;
