@@ -40,7 +40,11 @@ body {
 }
 
 .hero.gallery {
-  background: url("./assets/contact.jpeg") center center / cover no-repeat;
+  background-image: url("./assets/contact.jpeg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .hero.contact {
@@ -496,6 +500,10 @@ a {
 /* Мобильная версия */
 
 @media (max-width: 700px) {
+  .hero.gallery {
+  background-attachment: scroll;
+  background-position: center top;
+}
   .top {
     padding: 24px 18px 16px;
   }
