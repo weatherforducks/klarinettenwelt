@@ -562,4 +562,10 @@ a {
     filter: none;
     -webkit-filter: none;
   }
+  html[lang="uk"] h1,
+html[lang="uk"] h2 {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
 }
